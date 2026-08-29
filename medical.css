@@ -1203,14 +1203,13 @@ p{
 }
 
 footer{
-    background-color:#398DB8;
                      height: 316px;
         width: 104%;
         margin-top: 258px;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    color: black;
+
     /* margin-left: 2vw; */
 }
 #footer-contact{
@@ -1235,24 +1234,22 @@ font-weight: 400;
         text-align: center;
 }
 #quick-heading{
-    color: black;
+    
           font-size: 1.4rem;
     font-weight: 600;
 }
 #contact-us{
-  color: black;
+ 
         font-size: 1.4rem;
   font-weight: 600;
   
 }
 a{
-    color: black;
+    
             font-size: 1rem;
         font-weight: 600;
 }
 .bottom-bar{
-    background-color: blue;
-     color: white;
     height: 35px;
     width: 104%;
     text-align: center;
