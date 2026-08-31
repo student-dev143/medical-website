@@ -4,6 +4,13 @@ let sideNav = document.querySelector(".side-nav");
 let menuBar = document.querySelector(".ri-menu-line")
 const certificateSection = document.querySelector("#certificates-credentials");
 let bookBtn = document.querySelector("#home-booking");
+const navLinks = document.querySelectorAll(".side-nav a");
+
+navLinks.forEach(link => {
+    link.addEventListener("click", () => {
+        sideNav.classList.remove("active");
+    });
+});
 
 const observer = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
