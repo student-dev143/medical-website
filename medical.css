@@ -338,6 +338,9 @@ p{
 #treatments{
   margin-top: 8vh;
   height: 148vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .treat-boxes{
@@ -421,20 +424,20 @@ p{
     color: #0B525B;
 }
 .treat-heading{
-        margin-left: 35vw;
     font-size: 2.3rem;
         font-weight: 600;
-    margin-bottom: 24vh;
+    margin: 0 0 4vh;
+    text-align: center;
+    align-self: center;
     color: #0B525B;
-    position: relative;
-    top: 19vh;
 }
 
 
 #certificates-credentials{
-      margin-top: -38vh;
+    margin-top: 0;
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-direction: column;
     height: 1189px;
 }
@@ -453,10 +456,11 @@ p{
 }
 
  #certificate{
-        margin-left: 35vw;
     font-size: 2.3rem;
     font-weight: 600;
-        margin-bottom: 4vh;
+        margin: 0 0 4vh;
+        text-align: center;
+        align-self: center;
          color: #0B525B;
    
 }
@@ -587,9 +591,10 @@ body {
 }
 footer{
      background-color: #0B525B;
-    color: black;
+    color: #EAF6F3;
           height: 42vh;
-    width: 98.86vw;
+    width: 100%;
+    box-sizing: border-box;
     margin-top: 31vh;
     display: flex;
     justify-content: space-around;
@@ -606,13 +611,13 @@ footer{
     cursor: pointer;
     transition: 0.3s ease;
     background-color: #062F35;
-    color: #041518;
+    color: #EAF6F3;
     border: 1px solid #0B525B;
     transition: all 0.3s ease;
 }
  .footer-btn:hover {
       background: #0B525B;
-   color: #041518;
+   color: #EAF6F3;
     transform: translateY(-2px);
     box-shadow:
         0 0 8px rgba(22, 125, 127, 0.45),
@@ -628,7 +633,7 @@ footer{
 #footer-heading{
 font-size: 1.77rem;
 font-weight: 400;
-color: #041518;
+color: #EAF6F3;
  
 }
 .quick-links{
@@ -644,12 +649,12 @@ color: #041518;
         gap: 7px
 }
 #quick-heading{
-    color: #041518;
+    color: #EAF6F3;
     font-size: 1.2rem;
     font-weight: 600;
 }
 #contact-us{
-  color: #041518;
+  color: #EAF6F3;
   font-size: 1.2rem;
   font-weight: 600;
 }
@@ -657,6 +662,9 @@ a{
     color: black;
     text-decoration: none;
     
+}
+footer a{
+    color: #EAF6F3;
 }
 .bottom-bar{
     height: 6vh;
@@ -1448,7 +1456,9 @@ footer{
 
                      height: 316px;
 
-        width: 104%;
+        width: 100%;
+
+        box-sizing: border-box;
 
         margin-top: 258px;
 
@@ -1532,7 +1542,9 @@ a{
 
     height: 35px;
 
-    width: 104%;
+    width: 100%;
+
+    box-sizing: border-box;
 
     text-align: center;
 
@@ -1861,28 +1873,6 @@ input{
     stroke-dashoffset: 1200;
 
     animation: heartbeatMove 4s linear infinite;
-
-}
-
-@keyframes heartbeatMove {
-
-    0% {
-
-        stroke-dashoffset: 1200;
-
-    }
-
-    50% {
-
-        stroke-dashoffset: 0;
-
-    }
-
-    100% {
-
-        stroke-dashoffset: -1200;
-
-    }
 
 }
 
@@ -3039,5 +3029,41 @@ input{
 
     .bottom-bar{
         width:100%;
+    }
+}
+
+/* Tablet: <=1024px */
+@media (max-width:1024px){
+    nav{
+        gap: 0;
+    }
+    .treat-boxes{
+        width: 100%;
+    }
+    footer{
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .bottom-bar{
+        width: 100%;
+        box-sizing: border-box;
+    }
+}
+
+/* Tablet: <=768px */
+@media (max-width:768px){
+    .treat-heading{
+        text-align: center;
+    }
+    #certificate{
+        text-align: center;
+    }
+    footer{
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .bottom-bar{
+        width: 100%;
+        box-sizing: border-box;
     }
 }
