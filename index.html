@@ -4,6 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Doctor Sabiha</title>
+    <meta name="description" content="Book homeopathic consultations with Dr Sabiha for gentle, personalized care for everyday health concerns.">
+    <meta property="og:title" content="Doctor Sabiha - Homeopathic Consultation">
+    <meta property="og:description" content="Book homeopathic consultations with Dr Sabiha for gentle, personalized care for everyday health concerns.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="logo.png">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Physician",
+      "name": "Dr Sabiha",
+      "medicalSpecialty": "Homeopathic",
+      "telephone": "03042508460",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Lucknow Society Ls 15"
+      },
+      "openingHours": "Mo-Sa 10:00-22:00"
+    }
+    </script>
     <link rel="stylesheet" href="medical.css">
     <link
   href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css"
@@ -34,7 +53,7 @@
             <a href="#book">Contact</a>
              <button  id="nav-booking">Book Appointment</button>
          </span>
-         <i class="ri-menu-line"></i>
+         <button class="menu-btn" aria-label="Open menu"><i class="ri-menu-line"></i></button>
     </nav>
 
 
@@ -141,7 +160,7 @@ With a gentle and professional approach, Dr. Sabiha focuses on understanding her
 </svg>
 
                      <span  class="treat-name" id="stress-wellness">Respiratory Health</span>
-                     <span class="para">Support for stress, sleep, and inner balance.</span>
+                     <span class="para">Gentle support for easier breathing, allergies, and sinus comfort.</span>
                 </div>
                   <div class="box">
                     <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -149,7 +168,7 @@ With a gentle and professional approach, Dr. Sabiha focuses on understanding her
 </svg>
 
                      <span  class="treat-name" id="stress-wellness">Joint & muscle care</span>
-                     <span class="para">Support for stress, sleep, and inner balance.</span>
+                     <span class="para">Care for joint mobility, muscle comfort, and everyday movement.</span>
                 </div>
             </div>
     </section>
@@ -193,8 +212,8 @@ With a gentle and professional approach, Dr. Sabiha focuses on understanding her
             <div id="booking-heading">Book an Appointment</div>
             <form action="https://api.web3forms.com/submit" method="POST">
   <input type="hidden" name="access_key" value="7b340636-b876-40b2-8ff2-2c7b8b5337bc">
-           <div id="book-left"><input type="text" name="name" placeholder="Enter your name" required>
-           <input type="text" name="contact" placeholder="Enter your email/phone number" required></div>
+           <div id="book-left"><input type="text" name="name" autocomplete="name" placeholder="Enter your name" required>
+            <input type="text" name="contact" autocomplete="tel" placeholder="Enter your email/phone number" required></div>
              <div id="book-right">
            <input type="week" name="date" placeholder="Select Date" required>
             <input type="time" name="time" placeholder="Select Time" required>
@@ -207,13 +226,13 @@ With a gentle and professional approach, Dr. Sabiha focuses on understanding her
      <p class="footer-contact-line">
     For appointments and further information, please contact us.
 </p>
-    <footer id="footer">
+    <footer id="footer" style="color:#EAF6F3">
       
-      <span id="footer-contact"><span id="footer-heading"><b>Dr Sabiha </b><br></span>Need Help?We're Here For You contact us today or visit over clinic for any medical concerns.Your health is our priority.
+      <span id="footer-contact"><span id="footer-heading" style="color:#EAF6F3"><b>Dr Sabiha </b><br></span>Need Help?We're Here For You contact us today or visit over clinic for any medical concerns.Your health is our priority.
             <a href="#book"><button class="footer-btn" id="booking">Book Appointment</button></a>
       </span>
       <div class="quick-links">
-              <span id="quick-heading">Quick-Links</span>
+              <span id="quick-heading" style="color:#EAF6F3">Quick-Links</span>
             <a href="#">Home</a>
             <a href="#about">About</a>
             <a href="#treatments">Treatments</a>
@@ -221,7 +240,7 @@ With a gentle and professional approach, Dr. Sabiha focuses on understanding her
             <a href="">Contact</a>
       </div>
       <div class="contact-us">
-           <span id="contact-us">Contact-Us</span>
+           <span id="contact-us" style="color:#EAF6F3">Contact-Us</span>
         <span id="phone"><i class="ri-phone-line"></i>03042508460</span>
         <span id="email"><i class="ri-mail-line"></i>ainnydrsabiha@gmail.com</span>
         <span id="location"><i class="ri-map-pin-2-line"></i>Lucknow Society Ls 15</span>
