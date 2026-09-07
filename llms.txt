@@ -1,0 +1,42 @@
+# Dr Sabiha — Homeopathic Consultations
+
+Dr Sabiha is a DHMS-qualified Homeopathic Physician offering personalized
+homeopathic consultations in a private, home-based setting.
+
+## Consultations
+
+- Skin & hair consultations
+- Digestive health consultations
+- Allergy consultations
+- Women's health consultations
+- Stress & wellness consultations
+- Respiratory health consultations
+- Joint & muscle care consultations
+
+Consultations focus on understanding each patient's health concerns,
+lifestyle, and individual needs in a comfortable, one-on-one setting.
+
+## Booking & Contact
+
+- Phone: 03042508460
+- Hours: Mon-Sat 10AM-10PM, Sunday closed
+- Location: Lucknow Society Ls 15
+- Booking: use the appointment form on the site (#book) or call directly
+
+## Pages & Anchors
+
+- #home — introduction and appointment booking entry point
+- #about — about Dr Sabiha (DHMS, Homeopathic Physician)
+- #treatments — list of consultation areas
+- #certificates-credentials — education and registration credentials
+  (DHMS degree, National Council for Homoeopathy registration and renewal,
+  Materia Medica course, six months clinical training)
+- #book — appointment booking form
+
+## Credentials (as listed on site)
+
+- Diploma in Homoeopathic Medical Science (DHMS)
+- Registered with the National Council for Homoeopathy
+  (registration and renewal certificates listed)
+- Advanced study in Homoeopathic Materia Medica
+- Six months practical clinical training in patient care
